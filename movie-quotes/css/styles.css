@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 900;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 700;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 550;
+}
+p.stagedirection {
+    color:rgb(117, 117, 117);
+}
