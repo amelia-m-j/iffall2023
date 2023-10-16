@@ -47,7 +47,10 @@ li {
     @media (min-width: 640px) {
         max-width: 25%;
     }
+}
+#stretchable-grid-items aside {
     margin: 10px;
+    font-size: 0.8rem;
 }
 ul {
     margin-left: -10px;
