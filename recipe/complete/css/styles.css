@@ -1,0 +1,139 @@
+html {
+    font-family: "gimlet-text-narrow", serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 12pt;
+    background-color: rgb(214, 211, 201);
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+h1 {
+    font-family: "gimlet-text-narrow", serif;
+    font-size: 90px;
+    line-height: 90px;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 3px;
+    font-size: 19px;
+}
+header {
+    margin-left: -10%;
+    margin-right: -15%;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.header li {
+    width: 50%;
+    display: inline-block;
+}
+#header-text {
+    vertical-align: bottom;
+    padding-top: 20%;
+}
+.floated-image {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    border-radius: 50%;
+}
+h3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ingredients li {
+    display: block;
+}
+#ingredients-text {
+    max-width: 61%;
+    border: 2px solid #000000;
+    margin-right: 2%;
+    padding: 2%;
+    margin-left: 0;
+}
+#notes-text {
+    max-width: 26%;
+    margin-left: 2%;
+    margin-right: 0;
+    border: 2px solid #000000;
+    padding: 2%;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.images li {
+    display: block;
+    max-width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.image-grid {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    border-radius: 50%;
+}
+#directions {
+    border: 2px solid #000000;
+    padding: 20px;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 10px;
+}
+h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: inline-block;
+}
+.directions-text {
+    margin-top: 0;
+    display: inline;
+    margin-left: 3px;
+}
+
+@media (max-width: 1354px) {
+    html { font-size: 11pt; }
+    h1 { font-size: 80px;}
+    h2 {font-size: 15px;}
+    h3 {font-size: 35px;}
+    #ingredients-text {max-width: 60%;}
+    #notes-text {max-width: 26%;}
+}
+@media (max-width: 1032px) {
+    h1 { font-size: 65px;
+        line-height: 65px;}
+    h2 {font-size: 10px;}
+    #ingredients-text {max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;}
+    #notes-text {max-width: 100%;
+        margin-left: 0;}
+    h3 {font-size: 25px;}
+}
+@media (max-width: 454px) {
+    #header-text {padding-top: 25%;}
+}
