@@ -1,0 +1,240 @@
+/* lyft */
+a#btn_lyft {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAclBMVEX/DrD5+fr5//7/AKv/AK35/Pv5+/v62O37veP60+v/AKr+Nrf5///9ic/+WsH+Rbv7xeX8mdX55/T7tt/64PD56vT8q9v8jtH9gs3/K7X8ntb+Pbn58/j7yef9esr+ZcT6z+n9a8X+VL/9dMn8qdr7st+DOxkqAAAD9klEQVR4nO3c63aiMBiF4ZB8CRpQVETFempt7/8WJ1SFBMEi9uCa7OeftrqcdyVCIB3GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4DsQCaGFIPrrD/J3TIHSXRlIvywHYbbJwnSV3/fS/wdts9lF9tE9AtFyFnMpVaAk53z4qn/wQz4vEXJ1wQed84n9hqugIvk88XEAilBWDTrn04vYjvf54njq4QDslU9veXCND/zr1yefnjTVM/0m3vXrkY+mzfVMv7X46c/7ZHrkS+KWekEQv3l2/Lg/n57J1nxq5tn0vTsf7dqm7uf0Xfk1/O7Op2f1UxZn+M39Gn5353tzvvnMksOdynHy85/5iVzlI0vxC+Q+QQt77vJgsJg4AflUkEeXEOr5ouWotMxNrtfq8ehITMytuWtWeUQiz6x+MlydXuiHWj4ax7xUTETaWk+EgpG11D1/0RGzl7/FBYQ4+ut/1m+5ymfNTV7km1g/H5qzYuur73KYFWntYMyRryVfZP98f8pHI+RDvj6Q7yEP5du9JEmSI1+/fMHn4XlNyNcv3+cvTZEP+XpCvocg30O+PV9x2xeLtt75pD+XWxjyPejb83Hkuzffyn7R2Kd+t/MR09sO+fb25A19uttxK5+caJ3Yj1sWbYw5Tx6YPwFv5Qv4ZuhcSK5fMliOx+P9i3mTzN1tNfPnYv3wRj7zlPOgnu/tfD/JvX8UBP6c99HgZj63ZT1f+S61fRv+rDpoXfWQW2JJ93wqKzcE6dAZph7ls4abmhd30jrn4+/VKYp789yffExsqnxmxWB/F36RL7YOEO7NNo/y0bs1nsZ0aweQm4+n9mY+svddeZSPsUDZRdyTkPZ8alN7m03Vz6d8dCy/t5Q5llJyteu7KZ/itZ30lGfVwPQoHxPTMlixO5l2Tj/ZmE+q632ktL280Kt8TKz4ZeDEK2K0l+U4kvyjYc0r4zBvuDCgj5vTbiu/8pmJNzCrV1lcJw6LTWgsvTw85NY+cDkhFsXm2fmxeVVLYjfkXm0ROhNs9THZpqO8OJqaAch2p4eaqWom8wWx/JCOIt16TYoEe12nB2/WvKVqQ2S+15ftkPplY2/nW522T379Rr/xgZ9VFM+XCWmhaTxw/nDNuznZS8SV+ebLZhl39y2rzJ/reA84nZuoq7M/vvZ6UnZ1dT3+PPj41y+F1nwYfN0055MZ6nXSmE8p/87l+mnKJ5WXf2vfR0M+nkWo11FU+3tdcxa4QLzuDmbVfz7tU8UZdNp0eQXaCLZL56ctBGqeHv1ewvZBJIhFScTI6/9hCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7eP9HJM5WkfQ8QAAAAAElFTkSuQmCC);
+    background-position: center;
+    background-size: 135%;
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    transition: all .2s;
+}
+a#btn_lyft .fa-car-side {
+    font-size: 60px;
+    /* margin-top: -5px; */
+    color: white;
+    opacity: 0;
+}
+a#btn_lyft:hover {
+    background-image: none;
+    background-color: #FF00BF;
+}
+a#btn_lyft:hover .fa-car-side {
+    
+    color: white;
+    opacity: 1;
+}
+
+/* facebook */
+a#btn_facebook {
+    margin: auto;
+    margin-top: 65px;
+    padding-top: 8px;
+    display: block;
+    color: #4267B2;
+    font-size: 75px;
+    transition: all .6s;
+}
+a#btn_facebook:hover {
+    transform: scale(2);
+}
+a#btn_facebook:active {
+    color: #898F9C;
+}
+
+/* color run */
+a#btn_clrrun {
+    display: inline-block;
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+a#btn_clrrun:hover {
+    background: linear-gradient(to right, #ff0000 20%,#ff9900 40%,#eaff00 60%, #62ff00 80%,#00d5ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a#btn_clrrun:active {
+    background: linear-gradient(to right, #ff0000 20%,#ff9900 40%,#eaff00 60%, #62ff00 80%,#00d5ff 100%);
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+/* nike */
+a#btn_nike {
+    background-image: url(https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg);
+    width:120px;
+    height: 80px;
+    display: inline-block;
+    background-position: center;
+    background-size: 220%;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+}
+@keyframes energy {
+    from { transform: rotate(-4deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+  a#btn_nike:hover {
+    transform-origin: center bottom;
+    animation-name: energy;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+a#btn_nike:active {
+    background-image: none;
+    background-color: rgb(255, 94, 0);
+    animation: none;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    padding-top: 8px;
+    height: 68px;
+}
+
+/* dime city */
+a#btn_dime-city {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 70px;
+    background-color: #8c1818;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    line-height: 130px;
+    color: white;
+    transition: all .2s;
+}
+@keyframes spin {
+    from { transform: rotate(180deg) }
+    to { transform: rotate(0deg); }
+  }
+  a#btn_dime-city:hover {
+    transform-origin: center center;
+    animation-name: spin;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Cartoon Network */
+a#btn_crtnnet {
+    margin-top: 35px;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    padding-top: 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+a#btn_crtnnet:hover {
+    background-image: url(https://media.tenor.com/KYBqSzLNvg4AAAAC/colorbars-glitching.gif);
+    background-size: 100%;
+    color: black;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+/* apple */
+a#btn_apple {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 100px;
+    color: #000000;
+}
+a#btn_apple:hover {
+    text-shadow: 0 0 20px #000000;
+}
+a#btn_apple:active {
+    color: #ffffff;
+}
+
+/* potter more */
+a#btn_potter-more {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(74, 0, 74);
+}
+a#btn_potter-more:hover .fa-hat-wizard {
+    transform: translate(-20%, -50%) rotate(45deg);
+}
+a#btn_potter-more:active {
+    color: purple;
+}
+
+
+/* instagram */
+a#btn_instagram {
+    display: inline-block;
+    margin-top: 60px;
+    color: #000000;
+    font-size: 90px;
+}
+a#btn_instagram .fa-circle {
+    font-size: 28px;
+    transform: translate(-191%, -84%);
+    color: #ffffff;
+    opacity: 0;
+    text-shadow: 0 0 40px #ffffff;
+}
+@keyframes flash {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+a#btn_instagram:hover .fa-circle {
+    transform-origin: center bottom;
+    animation-name: flash;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* old navy */
+a#btn_old_navy {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #ffffff;
+    background-color: #003764;
+    height: 75px;
+    width: 200px;
+    border-radius: 50%;
+}
+a#btn_old_navy:hover {
+    background-color: #ff5100;
+}
+a#btn_old_navy:active {
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
