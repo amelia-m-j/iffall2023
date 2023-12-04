@@ -106,7 +106,8 @@ nav li a:active {
 /* ------------------------------------------side nav */
 .sideNav {
     width: 178px;
-    position: fixed;
+    position: sticky;
+    /* top: 50px; */
     z-index: 1;
     top: 72%;
     left: 60px;
@@ -131,6 +132,7 @@ nav li a:active {
     background-color: #895034;
     color: #ffffff;
 }
+
 
 @media (max-width: 1180px) {
     .sideNav {
@@ -162,6 +164,10 @@ footer {
 .footerText {
     max-width: 75%;
     margin-left: 12%;
+}
+
+@media (max-width: 930px) {
+    .footerText {font-size: 11px;}
 }
 
 /* ------------------------------------------body */
