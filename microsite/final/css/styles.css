@@ -2,10 +2,13 @@ html {
     background-color: #f4f0f0;
     color: rgb(23, 11, 0);
     font-family: 'Lora', serif;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     line-height: 25px;
     scroll-behavior: smooth;
 }
+/* p {
+    font-family: 'Lora', serif;
+} */
 body {
     margin: 0;
 }
@@ -42,8 +45,11 @@ h4 {
 h4.sonnetTitle {
     text-transform: uppercase;
 }
+.bold {
+    font-weight:900;
+}
 
-@media (max-width: 1180px) {
+@media (max-width: 1196px) {
     h1 {font-size: 80px;}
     h2 {font-size: 40px;
         line-height: 25px;}
@@ -107,12 +113,13 @@ nav li a:active {
     width: 178px;
     position: sticky;
     z-index: 1;
-    top: 72%;
+    top: 70vh;
     left: 60px;
     background-color: #391a0d;
     overflow-x: hidden;
     padding: 14px 0;
     border-radius: 6px;
+    float: left;
 }
 .sideNav a {
     padding: 9px 25px 9px 25px;
@@ -130,12 +137,19 @@ nav li a:active {
     background-color: #895034;
     color: #ffffff;
 }
+#sideNav {
+    padding-bottom: 10%;
+}
 
 @media (max-width: 1180px) {
     .sideNav {
         width: 75%;
-        margin-left: 7%;
-        top: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        top: 90vh;
+        left: 0;
+        float: none;
     }
     .sideNav a {
         display: inline-block;
@@ -147,11 +161,21 @@ nav li a:active {
         padding: 7px 15px;
     }
 }
+@media (max-width: 660px) {
+    .sideNav {
+        top: 83vh;
+    }
+    #sideNav {
+        padding-bottom: 20%;
+    }
+}
+
+
 
 /* ------------------------------------------footer */
 footer {
     background-color: #391a0d;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: 100px;
     width: 100%;
     padding-top: 45px;
@@ -169,10 +193,14 @@ footer {
 }
 
 /* ------------------------------------------body */
+/* body {
+    padding-top: 200px;
+} */
 .body {
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 65px;
+    /* padding-top: 200px; */
 }
 .photos {
     display: block;
@@ -195,10 +223,14 @@ footer {
 /* ------------------------------------------home page */
 
 header {
-    height: 54vh;
-    padding-top: 20vh;
+    height: 100vh;
+    padding-top: 35vh;
     margin-left: 5%;
     margin-right: 5%;
+    box-sizing: border-box;
+}
+.introduction {
+    padding-top: 0;
 }
 .introPhotos {
     max-width: 50%;
@@ -243,9 +275,9 @@ section {
 .winterHome {
     transform: rotate(-14deg);
 }
-#startListening {
-    margin-bottom: 5%;
-}
+/* #startListening {
+    margin-bottom: 15%;
+} */
 
 @media (max-width: 1180px) {
     .introPhotos { max-width: 60%;}
@@ -344,6 +376,7 @@ section {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    margin-bottom: 50px;
 }
 #bottomNav {
     background-color: #391a0d;
