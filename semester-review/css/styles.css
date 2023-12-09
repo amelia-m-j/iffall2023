@@ -1,0 +1,39 @@
+html {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    line-height: 2px;
+}
+h3 {
+    color: white;
+    padding-top: 5px;
+}
+.heading {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%
+}
+section a:hover {
+    /* background-color: rgb(109, 130, 115); */
+    background-color: rgb(170, 169, 161);
+}
+.linked_box {
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    text-decoration: none;
+    padding-bottom: 13px;
+}
+.site_img {
+    max-width: 90%;
+    margin-top: 5%;
+}
+footer {
+    margin-top: 7%;
+}
